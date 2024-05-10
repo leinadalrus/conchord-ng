@@ -3,7 +3,6 @@ import { AppService } from './app.service';
 
 import { NgModule, Injectable } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { NavmenusComponent } from './components/navmenus/navmenus.component';
 
 @NgModule({
   declarations: [],

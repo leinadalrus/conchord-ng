@@ -2,13 +2,13 @@ import { Component, effect, signal } from '@angular/core';
 import { Navigator } from './navigator';
 
 @Component({
-  selector: 'app-navmenus',
+  selector: 'app-navmenu',
   standalone: true,
   imports: [],
-  templateUrl: './navmenus.component.html',
-  styleUrl: './navmenus.component.scss'
+  templateUrl: './navmenu.component.html',
+  styleUrl: './navmenu.component.scss'
 })
-export class NavmenusComponent {
+export class NavmenuComponent {
   navigator: Navigator = {
     home: "Home",
     about: "About",
