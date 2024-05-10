@@ -15,7 +15,8 @@ export class AppService {
     this.httpClient.get("user", { headers: headers }).subscribe(response => {
       if (response == "name") this.authenticated = true
       else this.authenticated = false
-      return callback && callback()
     })
+
+      return callback && callback()
   }
 }

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Profiles } from '../../api/profiles';
+import { Profiler } from '../../api/profiler';
 
 @Component({
   selector: 'app-flairs',
@@ -9,7 +9,7 @@ import { Profiles } from '../../api/profiles';
   styleUrl: './flairs.component.scss',
 })
 export class FlairsComponent {
-  profile: Profiles = {
+  profile: Profiler = {
     url: '/assets/users/images/avatar.jpg',
     alt: this.fetchImage('/assets/users/images'), // found in |> /public ?? /resources
   };
