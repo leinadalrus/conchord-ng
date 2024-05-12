@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Profiler } from '../../api/profiler';
+import { Profiler } from '../../models/account';
 
 @Component({
   selector: 'app-flairs',
