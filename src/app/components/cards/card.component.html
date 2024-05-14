@@ -1,13 +1,17 @@
 <div class="card-banner">
-  <h1>{{title}}</h1>
+  <h1>{{ vessel.title }}</h1>
 </div>
+<img alt="{{ avatarURL }}" />
 <article class="card-container">
   <h2></h2>
   <section class="card-content">
-    <img src="" />
+    <img
+      src=""
+      alt="{{ vessel.description }}"
+    />
     <span>
-      <p>{{description}}</p>
-      <i>{{flavor}}</i>
+      <p>{{ vessel.description }}</p>
+      <i>{{ vessel.flavor }}</i>
     </span>
   </section>
 </article>
