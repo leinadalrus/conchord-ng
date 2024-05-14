@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { NavmenuComponent } from './components/navmenu/navmenu.component';
 import { FlairsComponent } from './components/flairs/flairs.component';
-import { LoginComponent } from './partials/login/login.component';
+import { LoginComponent } from './components/login/login.component';
 
 @Component({
   selector: 'app-root',

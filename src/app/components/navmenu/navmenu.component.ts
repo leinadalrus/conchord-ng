@@ -1,5 +1,5 @@
 import { Component, effect, signal } from '@angular/core';
-import { Navigator } from './navigator';
+import { Navigator } from '../../models/navigators/navigator';
 
 @Component({
   selector: 'app-navmenu',

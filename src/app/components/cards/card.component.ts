@@ -1,5 +1,5 @@
 import { Component } from "@angular/core"
-import { Vessel } from "../vessels/vessel"
+import { Vessel } from "../../models/vessels/vessel"
 
 @Component({
   selector: "app-card",

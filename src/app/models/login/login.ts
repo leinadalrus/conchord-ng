@@ -1,7 +1,7 @@
-import {HttpClient} from "@angular/common/http"
-import {Router} from "@angular/router"
+import { HttpClient } from "@angular/common/http"
+import { Router } from "@angular/router"
 
-import {finalize, of} from "rxjs"
+import { finalize, of } from "rxjs"
 
 export class Login {
   constructor(private httpCliental: HttpClient, private appRouter: Router) {}
